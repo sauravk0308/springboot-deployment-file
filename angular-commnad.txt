@@ -1,0 +1,160 @@
+Microsoft Windows [Version 10.0.16299.309]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+D:\>npm i -g @angular/cli
+C:\Users\sauravk\AppData\Roaming\npm\ng -> C:\Users\sauravk\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+npm WARN rollback Rolling back node-pre-gyp@0.10.3 failed (this is probably harmless): EPERM: operation not permitted, rmdir 'C:\Users\sauravk\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\fsevents\node_modules'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\@angular\cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/cli@7.3.3
+updated 1 package in 12.232s
+
+D:\>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 7.3.3
+Node: 10.15.1
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.13.3
+@angular-devkit/core         7.3.3
+@angular-devkit/schematics   7.3.3
+@schematics/angular          7.3.3
+@schematics/update           0.13.3
+rxjs                         6.3.3
+typescript                   3.2.4
+
+
+D:\>mkdir ng7Demo
+
+D:\>cd ng7Demo
+
+D:\ng7Demo>ng new ng7App
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? Less   (.less) [ http://lesscss.org     ]
+CREATE ng7App/angular.json (3895 bytes)
+CREATE ng7App/package.json (1306 bytes)
+CREATE ng7App/README.md (1023 bytes)
+CREATE ng7App/tsconfig.json (435 bytes)
+CREATE ng7App/tslint.json (1621 bytes)
+CREATE ng7App/.editorconfig (246 bytes)
+CREATE ng7App/.gitignore (629 bytes)
+CREATE ng7App/src/favicon.ico (5430 bytes)
+CREATE ng7App/src/index.html (293 bytes)
+CREATE ng7App/src/main.ts (372 bytes)
+CREATE ng7App/src/polyfills.ts (2841 bytes)
+CREATE ng7App/src/styles.less (80 bytes)
+CREATE ng7App/src/test.ts (642 bytes)
+CREATE ng7App/src/browserslist (388 bytes)
+CREATE ng7App/src/karma.conf.js (1019 bytes)
+CREATE ng7App/src/tsconfig.app.json (166 bytes)
+CREATE ng7App/src/tsconfig.spec.json (256 bytes)
+CREATE ng7App/src/tslint.json (314 bytes)
+CREATE ng7App/src/assets/.gitkeep (0 bytes)
+CREATE ng7App/src/environments/environment.prod.ts (51 bytes)
+CREATE ng7App/src/environments/environment.ts (662 bytes)
+CREATE ng7App/src/app/app-routing.module.ts (245 bytes)
+CREATE ng7App/src/app/app.module.ts (393 bytes)
+CREATE ng7App/src/app/app.component.html (1152 bytes)
+CREATE ng7App/src/app/app.component.spec.ts (1095 bytes)
+CREATE ng7App/src/app/app.component.ts (212 bytes)
+CREATE ng7App/src/app/app.component.less (0 bytes)
+CREATE ng7App/e2e/protractor.conf.js (752 bytes)
+CREATE ng7App/e2e/tsconfig.e2e.json (213 bytes)
+CREATE ng7App/e2e/src/app.e2e-spec.ts (635 bytes)
+CREATE ng7App/e2e/src/app.po.ts (251 bytes)
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+
+> node-sass@4.11.0 install D:\ng7Demo\ng7App\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.11.0/win32-x64-64_binding.node
+Download complete  ] - :
+Binary saved to D:\ng7Demo\ng7App\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Caching binary to C:\Users\sauravk\AppData\Roaming\npm-cache\node-sass\4.11.0\win32-x64-64_binding.node
+
+> node-sass@4.11.0 postinstall D:\ng7Demo\ng7App\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at D:\ng7Demo\ng7App\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1076 packages from 1023 contributors and audited 42430 packages in 370.969s
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/styles.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+    Successfully initialized git.
+
+D:\ng7Demo>
